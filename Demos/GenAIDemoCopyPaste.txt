@@ -1,0 +1,122 @@
+----------
+Demo Setup
+----------
+
+{
+    "language_servers": {
+        "pylsp": {
+            "serverSettings": {
+                "pylsp.plugins.pycodestyle.enabled": false,
+            }
+        }
+    }
+}
+
+
+--------
+Module 3
+--------
+
+"bedrock:ListCustomModels",
+"bedrock:ListProvisionedModelThroughputs",
+"bedrock:ListFoundationModels",
+"bedrock:InvokeModel",
+"bedrock:InvokeModelWithResponseStream"
+
+--
+
+recommend the top 5 pizza restaurants in Seattle, Washington
+
+--
+
+which one is closest to downtown?
+
+--
+
+Recommend top 5 pizza restaurants in Seattle, Washington Response: should follow the below format:
+- Rank number, restaurant name, stars
+- Number of positive reviews considered
+- Brief restaurant description (25 words or less)
+
+--
+
+Answer the below question based on the website: https://docs.aws.amazon.com/
+What AWS services can be used for Compute?
+Just list the service name in bullet-list format
+
+--
+
+skyline of new york city at night
+
+--------
+Module 4
+--------
+
+Tell me the sentiment of the following social media post and categorize it as positive, negative, or neutral:
+
+Don't miss the electric vehicle revolution! AnyCompany is ditching muscle cars for EVs, creating a huge opportunity for investors.
+
+--
+
+Tell me the sentiment of the following headline and categorize it as either positive, negative, or neutral. Here are some examples:
+
+Research firm fends off allegations of impropriety over new technology.
+Answer: Negative
+
+Offshore windfarms continue to thrive as vocal minority in opposition dwindles.
+Answer: Positive
+
+Manufacturing plant is the latest target in investigation by state officials.
+Answer:
+
+--
+
+Which vehicle requires a larger down payment based on the following information?
+
+The total cost of vehicle A is $40,000, and it requires a 30 percent down payment.
+
+The total cost of vehicle B is $50,000, and it requires a 20 percent down payment.
+(Think step by step)
+
+--
+
+In a given week, the viewers for a TV channel are as follows:
+Monday: 6,500 viewers
+Tuesday: 6,400 viewers
+Wednesday: 6,300 viewers
+
+Question: How many viewers can we expect on Friday?
+Answer: Based on the numbers given and without any more information, there is a daily decrease of 100 viewers. If we assume this trend will continue during the following days, we can expect 6,200 viewers on the next day that would be Thursday, and therefore 6,100 viewers on the next day that would be Friday.
+
+Question: How many viewers can we expect on Saturday? (Think step by step)
+Answer:
+
+--
+
+A kid is playing with 16 toys. Half the toys are trucks, and half the trucks are yellow. How many yellow trucks are there?
+
+--
+
+A kid is playing with 16 toys. Half the toys are trucks, and half the trucks are yellow. How many yellow trucks are there? Think step by step.
+
+--
+
+Amazon Bedrock makes building with a range of FMs as easy as an API call. Amazon Bedrock provides access to leading models including AI21 Labs' Jurassic, Anthropic's Claude, Cohere's Command and Embed, Meta's Llama 2, and Stability AI's Stable Diffusion, as well as our own Amazon Titan models. With Amazon Bedrock, you can select the FM that is best suited for your use case and application requirements. You can easily experiment with different FMs using interactive playgrounds for various modalities including text, chat, and image. The playgrounds allow you to try out various models for your use case to get a feel for the model's suitability for a given task. Model Evaluation on Amazon Bedrock allows you to use automatic and human evaluations to select FMs for a specific use case. Automatic model evaluation uses curated datasets and provides pre-defined metrics including accuracy, robustness, and toxicity. For subjective metrics, you can use Amazon Bedrock to set up a human evaluation workflow with a few clicks. With human evaluations, you can bring your own datasets and define custom metrics, such as relevance, style, and alignment to brand voice. Human evaluation workflows can leverage your own employees as reviewers or you can engage an AWS-managed team to perform the human evaluation, where AWS hires skilled evaluators and manages the end-to-end workflow on your behalf. With a few clicks, Amazon Bedrock lets you go from generic models to ones that are specialized and customized for your business and use case. To adapt an FM for a specific task, you can use a technique called fine-tuning. Simply point to a few labeled examples in Amazon S3, and Amazon Bedrock makes a copy of the base model, trains it with your data, and creates a fine-tuned model accessible only to you, so you get customized responses. Fine-tuning is available for Command, Llama 2, Titan Text Lite and Express, Titan Image Generator, and Titan Multimodal Embeddings models. A second way you can adapt Titan Text Lite and Express FMs in Amazon Bedrock is with continued pre-training, a technique that uses your unlabeled datasets to customize the FM for your domain or industry. With both fine-tuning and continued pre-training, Amazon Bedrock creates a private, customized copy of the base FM for you, and your data is not used to train the original base models. Your data used to customize models is securely transferred through your Amazon Virtual Private Cloud (VPC). Use a single API to perform inference, regardless of the model you choose. Having a single API provides the flexibility to use different models from different model providers and keep up to date with the latest model versions with minimal code changes.
+
+what are some of the advantages of using Amazon Bedrock?
+
+--
+
+what are the top three reasons that a developer would choose to work with Amazon Bedrock?
+
+--
+
+which advantage is most important for a developer?
+
+--
+
+photorealistic, high resolution image of a physicist
+
+--
+
+photorealistic, high resolution image of a physicist. the physicist is a woman in her late-30s and has dark skin color
